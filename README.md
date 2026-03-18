@@ -20,19 +20,15 @@ The dataset contains recipes along with nutritional information such as calories
 
 Below is the distribution of average ratings:
 
-![Ratings Distribution](assets/ratings_hist.png)
+<iframe src="assets/ratings_hist.html" width="800" height="600" frameborder="0"></iframe>
 
 Most recipes are rated between 3.5 and 5, indicating generally positive reviews.
 
 The relationship between calories and average rating is shown below:
 
-![Calories vs Rating](assets/calories_vs_rating.png)
+<iframe src="assets/calories_scatter.html" width="800" height="600" frameborder="0"></iframe>
 
 There is no strong visible relationship between calorie content and ratings.
-
-Below is the distribution of calories:
-
-![Calories Distribution](assets/calories_hist.png)
 
 ---
 
@@ -46,17 +42,9 @@ Missingness was analyzed to determine whether it depended on other variables. A 
 
 To test whether calorie level affects ratings, a hypothesis test was conducted comparing high-calorie and low-calorie recipes.
 
-Below is a comparison of ratings between high-calorie and low-calorie recipes:
-
-![High vs Low Rating](assets/highvslowrating.png)
-
-Permutation test distribution for mean difference:
-
-![Permutation Mean](assets/permdisterbutionofmean.png)
-
 Permutation test distribution for rating difference:
 
-![Permutation Rating](assets/permdisterbutionofrating.png)
+<iframe src="assets/permdisterbutionofrating.html" width="800" height="600" frameborder="0"></iframe>
 
 The p-value (~0.0695) is slightly above 0.05, so we fail to reject the null hypothesis. This indicates that there is not sufficient evidence to conclude that calorie level significantly impacts average recipe ratings.
 
